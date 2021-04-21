@@ -1,10 +1,6 @@
-<%-- 
-    Document   : index
-    Created on : Apr 20, 2021, 10:21:13 PM
-    Author     : family.user
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:include page="plantilla.jsp"/>
 <!DOCTYPE html>
 <html>
     <head>
