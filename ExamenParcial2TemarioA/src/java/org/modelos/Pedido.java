@@ -5,10 +5,7 @@
  */
 package org.modelos;
 
-/**
- *
- * @author javie
- */
+
 public class Pedido {
     
 }
