@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package org.interfaces;
 
-/**
- *
- * @author javie
- */
+import java.util.List;
+import org.modelos.Clientes;
+
+
 public interface CrudClientes {
-    
+    public List listar();
+    public Clientes list(int id);
+    public boolean insertar(Clientes cliente);
+    public boolean modificar(Clientes cliente);
+    public boolean eliminar(Clientes cliente);
+    public List busqueda(String parametro, String opcion);
 }
